@@ -1,7 +1,7 @@
-using System;
-public class NumbersManChecker {
-  static public Boolean IsDisallowed(string username) 
-  {
-    return username == '46009361'
-  }
+public class NumbersManChecker
+{
+    public static bool IsDisallowed(string username) 
+    {
+        return username == "46009361";
+    }
 }
